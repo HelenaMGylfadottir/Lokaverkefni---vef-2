@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--STILLINGAR-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide - "CRITTER'S COVE"</title>
+    <!--FONT IMPORT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Gaegu&display=swap" rel="stylesheet">
+    <!--CSS TENGINAR-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="top"></div>
+
+    <header>
+        <div class="logo">
+            <span class="icon-circular-logo-cc"></span>
+        </div>
+        <div class="website-name">
+            <div class="critters-cove">
+                CRITTER'S COVE
+            </div>
+            <div class="quote">
+                Discover the Beauty in Bugs!
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="collapsible-menu">
+            <input type="checkbox" id="menu-control">
+            <label for="menu-control" id="menu-label">
+                <span class="icon-horizontal-lines"></span></label>
+            <div class="menu-see">
+               <ul>
+                  <li>
+                     <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                     <a href="guide.html">Book a zoo guide</a>
+                  </li>
+                  <li>
+                     <a href="activities.html">Activities</a>
+                  </li>
+                  <li>
+                     <a href="tickets.html">Buy a ticket</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+    </nav>
+
+    <section class="info-about-guide">
+        For those of you who are interested in ordering a guide to help you around! This is the place to order one. We can take groups of up to 30 people at a time! <br>
+        Please fill out the form and an email will be sent to you with further details.
+    </section>
+
+    <form>
+        <label><h2>Please provide your first and last name</h2></label><br>
+        <div class="name">
+        <div>
+            <div class="first-name"><label>First name</label></div><br>
+            <input type="text" name="first_name" style="width: 220px;"><br>
+        </div>
+        <div>
+            <label>Last name</label><br>
+            <input type="text" name="last_name" style="width: 220px;">
+        </div>
+        </div>
+
+        <br>
+
+        <label><h2>How big is your group?</h2></label><br>
+        <div class="group">
+        <p>
+            <label>
+                <input type="radio" name="gender" value="Male">
+                1-5
+            </label>
+
+            <label>
+                <input type="radio" name="gender" value="Female">
+                6-10 
+            </label>
+
+            <label>
+                <input type="radio" name="gender" value="non-binary">
+                11-20 
+            </label>
+
+            <label>
+                <input type="radio" name="gender" value="prefer-not-to-say">
+                21-30 
+            </label>
+
+            <label>
+                <input type="radio" name="gender" value="other">
+                30+
+            </label>
+        </p>
+        </div>
+
+        <br>
+
+        <label><h2>Please provide your email and phone number</h2></label>
+        <div class="email-and-phone">
+            
+        <div class="email">
+            <label>Email</label><br>
+            <input type="email" name="email" required=""><br>
+        </div>
+        <p>
+            <label>Phone number</label><br>
+            <input type="tel" name="phone"><br>
+        </p>
+        </div>
+
+        <br>
+
+        <div class="additional-info">
+        <label><h2>Check these if they apply to you or anyone else who may be in your group!</h2></label> 
+        <p>
+        <input type="checkbox">
+        <label for="needs">someone in my group has special needs</label><br>
+        </p>        
+        <p>
+        <input type="checkbox">
+        <label for="needs">someone in my group has a possibly life threatening condition</label><br>
+        </p>        
+        <p>
+        <input type="checkbox">
+        <label for="vehicle3">someone in my group is elderly</label>
+        </p>
+        </div>
+
+        <br>
+
+        <p>
+            <label><h2>Is there anything else we should know?</h2></label> 
+            <label>Comments</label><br>
+            <textarea></textarea>
+        </p>
+
+        <br>
+
+        <p>
+            <label><h2>Once filled in please submit the form!</h2></label> 
+            <button>Send</button>
+            <button type="reset">Reset form</button>
+        </p>
+    </form>
+
+    <div class="scroll">
+        <h1>
+        <a class="no_line">
+        <a style="text-decoration:none" href="#top" ><span class="icon-arrow-up"></span></a>
+        <a style="text-decoration:none" href="#bottom" ><span class="icon-arrow-down"></span></a>
+        </a>
+        </h1>
+    </div>
+
+    <div id="bottom"></div>
+
+</body>
+</html>
